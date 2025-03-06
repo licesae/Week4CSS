@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(184, 222, 179);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: rgb(51, 126, 70);
+  font-family: monospace;
+  font-size: larger;
+}
+
+#myarticle {
+  text-align: right;
+}
+
+div {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  background-color: darkgreen;
+}
+
+#myarticle {
+  border-style: groove;
+  border-color: black;
+}
