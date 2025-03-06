@@ -24,6 +24,7 @@ p {
 
 #myarticle {
   text-align: right;
+  padding: 30px;
 }
 
 div {
@@ -35,9 +36,15 @@ div {
 
 h1 {
   background-color: darkgreen;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px 50px;
 }
 
 #myarticle {
-  border-style: groove;
+  border-radius: 10px;
+  border-style: solid;
   border-color: black;
+  background-color: #f1ffdd;
+  margin: 80px;
 }
