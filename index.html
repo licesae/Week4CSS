@@ -11,72 +11,95 @@
       <h1>Hi I'm Raesa</h1>
     </header>
 
-    <!-- <section>
-            <h2></h2>
-            <p></p>
-        </section>
-  -->
-
     <br />
+
     <section class="colorbox">
       <h2>Section</h2>
       <p>
-        I like cheese, especially pepper jack cheese, its awesome. I also like
-        the colors yellow and green! Lastly, I loveeee ferrets, they are so
-        cute!!!
+        I like cheese, especially pepper jack cheese, it's awesome.
+        <br />
+        I also like the colors yellow and green!
+        <br />
+        Lastly, I loveeee ferrets, they are so cute!!!
       </p>
+      <img src="assets/ferret_300dpi.jpg" alt="fart" />
     </section>
+
     <article id="myarticle" class="colorbox boxy">
       <h2>Article</h2>
       <p>
         I'm interested in pursuing UX/UI design and have almost 2 years of
-        experience towards it. I also really like ceramics, I yearn for a
-        pottery studio. Tree's are pretty cool too.
+        experience towards it.
+        <br />
+        I also really like ceramics, I yearn for a pottery studio.
+        <br />
+        Tree's are pretty cool too.
       </p>
     </article>
+
     <aside class="colorbox boxy square">
       <h2>Aside</h2>
       <p>
-        The 3rd paragraph the 3rd paragraph the 3rd paragraph the 3rd paragraph
-        the 3rd paragraph the 3rd paragraph. The 3rd paragraph the 3rd paragraph
-        the 3rd paragraph the 3rd paragraph the 3rd paragraph the 3rd paragraph.
+        The 3rd paragraph the 3rd paragraph the 3rd paragraph the 3rd paragraph.
+        The 3rd paragraph the 3rd paragraph the 3rd paragraph the 3rd paragraph.
       </p>
     </aside>
+
     <div class="colorbox square">
       <h2>Div with one paragraph</h2>
       <p>
-        The 4th paragraph the 4th paragraph the 4th paragraph the 4th paragraph
-        the 4th paragraph the 4th paragraph. The 4th paragraph the 4th paragraph
-        the 4th paragraph the 4th paragraph the 4th paragraph the 4th paragraph.
+        The 4th paragraph the 4th paragraph the 4th paragraph the 4th paragraph.
+        The 4th paragraph the 4th paragraph the 4th paragraph the 4th paragraph.
       </p>
     </div>
+
     <div class="paragraph_box">
-      <!--This box is full of block elements.-->
       <h2>Div filled with paragraphs</h2>
-      <p class="para">
-        Paragraph 1: Paragraph elements are <i>block</i> elements.
-      </p>
-      <p class="para">
-        Paragraph 2: That's why each of these paragraphs starts on its own line.
-      </p>
-      <p class="para">Paragraph 3: I'm another paragraph.</p>
+      <p class="para">Paragraph 1: Paragraph elements are <i>block</i> elements.</p>
+      <p class="para">Paragraph 2: Each starts on its own line.</p>
+      <p class="para highlight">Paragraph 3: This has a class "highlight"!</p>
       <p class="para">Paragraph 4: Me too.</p>
       <p class="para">Paragraph 5: Me five!</p>
     </div>
+
     <div class="span_box">
-      <!--This box is full of inline elements.-->
       <h2>Div filled with spans</h2>
-      <span class="spanexample"
-        >Span 1: Span elements are like paragraphs, but they are
-        <i>inline</i> text element.</span
-      >
-      <span class="spanexample"
-        >Span 2: That's why all the spans are next to each other, instead of on
-        separate lines.</span
-      >
-      <span class="spanexample">Span 3: I'm another span.</span>
+      <span class="spanexample">Span 1: Inline <i>elements</i>.</span>
+      <span class="spanexample">Span 2: Stays on the same line.</span>
+      <span class="spanexample">Span 3: Another span.</span>
       <span class="spanexample">Span 4: Me too.</span>
       <span class="spanexample">Span 5: Me five.</span>
+    </div>
+
+    <!-- Element.class selector -->
+    <p class="highlight">This uses the .highlight class on a paragraph.</p>
+
+    <!-- Descendant selector example -->
+    <div class="container">
+      <h2>Descendant selector test</h2>
+      <p>This paragraph is inside a div with class "container".</p>
+    </div>
+
+    <!-- Adjacent sibling selector example -->
+    <h2>Adjacent sibling example</h2>
+    <p>This paragraph comes right after the h2.</p>
+
+    <!-- General sibling selector example -->
+    <h2>General sibling example</h2>
+    <p>This is a general sibling to the h2 above.</p>
+    <p>Another general sibling paragraph.</p>
+
+    <!-- Child selector example -->
+    <div class="parent">
+      <p>This is a child paragraph inside div.parent.</p>
+      <div>
+        <p>This paragraph is a grandchild and won't match child selector.</p>
+      </div>
+    </div>
+
+    <!-- Positioning example -->
+    <div class="position-relative">
+      <p class="position-absolute">I'm absolutely positioned inside a relative div!</p>
     </div>
 
     <footer>

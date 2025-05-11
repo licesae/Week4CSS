@@ -1,3 +1,11 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   background-color: rgb(184, 222, 179);
 }
@@ -5,12 +13,14 @@ body {
 h1 {
   color: white;
   text-align: center;
-}
-
-h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
+  background-color: darkgreen;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px 50px;
 }
+
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -22,29 +32,65 @@ p {
   font-size: larger;
 }
 
+
 #myarticle {
   text-align: right;
   padding: 30px;
-}
-
-div {
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-h1 {
-  background-color: darkgreen;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 20px 50px;
-}
-
-#myarticle {
   border-radius: 10px;
   border-style: solid;
   border-color: black;
   background-color: #f1ffdd;
   margin: 80px;
+}
+
+div {
+  padding: 50px 80px;
+}
+
+/* 5. Class selector */
+.highlight {
+  color: rgb(215, 230, 183);
+  font-weight: bold;
+}
+
+/* 6. Element.class combinator selector */
+p.highlight {
+  background-color: #fff3cd;
+}
+
+/* 7. Descendant selector */
+.paragraph_box p {
+  background-color: #f0f8ff;
+}
+
+/* 8. Adjacent sibling selector */
+h2 + p {
+  color: rgb(75, 95, 18);
+  font-style: italic;
+}
+
+/* 9. General sibling selector */
+h2 ~ p {
+  color: green;
+}
+
+/* 10. Child selector */
+.parent > p {
+  font-weight: bold;
+}
+
+/* 11. Positioning examples */
+.position-relative {
+  position: relative;
+  height: 150px;
+  border: 1px dashed rgb(255, 238, 238);
+  margin: 10px;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(145, 206, 88);
+  padding: 5px;
 }
